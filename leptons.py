@@ -26,8 +26,8 @@ def sms(talk):
     """
     # Your Account Sid and Auth Token from twilio.com/console
     # DANGER! This is insecure. See http://twil.io/secure
-    account_sid = 'AC5d5e141a40cd1ad612f1bbab6524374c'
-    auth_token = '60d557e226be1fd70447ed6ec8697fa8'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
